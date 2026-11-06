@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Expense Tracker - smoke">
+    <test name="Smoke">
+        <classes>
+            <class name="com.practice.expense.tests.NavigationTest"/>
+            <class name="com.practice.expense.tests.AddExpenseTest"/>
+            <class name="com.practice.expense.tests.ExpenseListTest"/>
+            <class name="com.practice.expense.tests.InsightsTest"/>
+        </classes>
+    </test>
+</suite>
